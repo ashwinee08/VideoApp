@@ -17,6 +17,7 @@ public class AsyncTaskForMain extends AsyncTask<String,Integer,String> {
     public AsyncTaskForMain(MainMethodCallback mainMethodCallback){
         this.mainMethodCallback=mainMethodCallback;
     }
+    
     @Override
     protected String doInBackground(String... strings) {
         String result=null;
